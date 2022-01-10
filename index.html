@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <!--Css externo-->
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/467c9f85b7.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body >
+
+<div class="container1"> <!--inicio container-->
+
+  <header><!--começo header-->
+     
+        <nav class="navbar navbar-expand-sm mb-5 mr-2"> <!--navegação-->
+
+          <img class="navbar-brand mt-2 ml-5" src="images/logo.svg" alt="Sunny_Side"> <!--logo Sunny-->
+
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#menu"><!--botão hamburguer-->
+            <i class="fas fa-hamburger fa-2x"></i>
+        </button>
+
+          <div class="collapse navbar-collapse" id="menu">
+
+            <ul class="navbar-nav ml-auto">
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              
+                <li class="nav-item">  
+                  <a class="nav-link" href="#">Services</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>  
+            </ul>
+
+         </div>
+        </nav> <!--fim navegação-->
+
+        <h1 class="display-md-1 text-center mb-5">We are creatives</h1>
+           
+          <div class="text-center">
+            <img class="mt-5" src="images/icon-arrow-down.svg" alt="">
+          </div>
+  
+  </header> <!--fim header-->
+
+ <section> <!--inicio section-->
+    
+    <div class="row"> <!--inicio row-->
+
+    
+      <article onmouseout="expandir()" class="col-md-6">
+        <div class=" paragraph mt-4 ml-2" id="div"> 
+
+        <h1>Transform your brand</h1>
+
+        <p>
+          We are a full-service creative agency specializing in helping brands grow fast. 
+          Engage your clients through compelling visuals that do most of the marketing for you.
+        </p>
+
+        <a class="link" href="#">Learn more</a>
+
+        </div>
+      
+      </article>
+
+        <div class="col-md-6 ovo">
+        </div>
+        <div class="col-md-6 calice">
+        </div>
+
+      <article onmouseover="expandir()" class="col-md-6 col-sm-12 sta"> 
+  
+        <div class="stand  mt-2 mr-1" id="div2">  
+          
+        <h1>Stand out to the right audience</h1>
+
+          <p>
+          Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+          </p>
+
+          <a href="#">Learn more</a>
+
+        </div>  
+      </article>
+          
+          
+
+            
+
+        <div class="imagem  col-md-6 col-sm-12">
+        <div class="texto text-center"> 
+        <h2>Graphic design</h2>
+        <p class="pt-3">
+          Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+        </p>
+
+      </div>
+        </div>
+  
+      <div class="imagem2 col-md-6 col-sm-12"> 
+        <div class="texto text-center">
+      <h1>Photography</h1>
+      <p class="pt-3"> 
+        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+        </p>
+
+        </div>
+      </div>
+      
+      <div class="container-fluid"><!--inicio do container secundario-->
+        
+          <div>
+           <h3 class="center mb-5 mt-5">Client testimonials</h3>
+          </div>
+      
+        <div class="row">
+
+          <div class="col-md-3 mb-4 emi  text-center">
+            <img class="radius" src="images/image-emily.jpg" alt="">
+          <p class="small"> 
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          <p> 
+            <strong>Emily R.<br></strong>
+            <small>Marketing Director</small>
+            
+          </div>
+        
+          <div class="col-md-3  ml-5 text-center">
+            <img class="radius" src="images/image-thomas.jpg" alt="">
+          <p class="small"> 
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p> 
+            <strong>Thomas S.<br></strong>
+          <small>Chief Operating Officer</small>
+          </div>
+      
+          <div class="col-md-3 text-center  ml-5" >
+          
+            <img class="radius" src="images/image-jennie.jpg" alt="">
+            <p class="small">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!</p>
+              <strong>Jennie F.<br></strong>
+            <small>Business Owner</small>
+            </div>
+          
+          <div class="col-md-3 col-sm-6 milk">
+          </div>
+          <div class="col-md-3 col-sm-6 orange"></div>  
+          <div class="col-md-3 col-sm-6 casquinha"></div>  
+          <div class="col-md-3 col-sm-6 sugar"></div>  
+          
+        
+    
+        </div><!--fim row secundaria-->
+
+      </div><!--container secundario fim-->  
+
+    </div><!--fim Row principal-->
+
+ </section> <!--fim section-->
+
+ <footer>
+    <div class="text-center">
+      <img class="mt-5" src="images/logo.svg" alt="">
+
+        <nav class="mt-5">  
+          <a href="#">About</a>
+          <a href="#">Services</a>
+          <a href="#">Projects</a>
+        </nav> 
+      <div class="mt-5">
+
+       <a href="#"><i class="fab fa-facebook-square  pl-3"></i></a>
+
+       <a href="#"><i class="fab fa-instagram  pl-3"></i></a>
+
+       <a href="#"><i class="fab fa-twitter  pl-3"></i></a>
+
+       <a href="#"><i class="fab fa-pinterest pl-3"></i></a>
+
+      </div>    
+    </div>  
+ </footer>
+
+</div><!--final container-->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+
+
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+
+     <script src="functions.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    -->
+</body>
+</html>
